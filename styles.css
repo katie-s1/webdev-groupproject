@@ -1,0 +1,281 @@
+.landing-page {
+    background-image: url('background3.jpg');
+    /* URL to your image */
+    background-repeat: repeat;
+    /* This will make the image repeat */
+    background-attachment: fixed;
+    /* This makes the background fixed */
+    background-size: auto;
+    /* This sets the size of the image to its original size */
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: Garamond, serif;
+    color: #dabfe0;
+}
+
+.heading-landing {
+    text-align: center;
+    margin-top: 20%;
+    color: black;
+    font-size: 60px;
+}
+
+#enterButton {
+    background-color: #9b6aa8f3;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#enterButton:hover {
+    background-color: rgba(175, 137, 186, 0.929);
+}
+
+.home-page {
+    background-color: #dabfe0;
+    font-family: Garamond, serif;
+    align-items: center;
+    text-align: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.heading-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.home-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-home {
+    font-size: 18px;
+    text-decoration: none;
+    color: black
+}
+
+.nav-home:hover {
+    color: #9a9a9a;
+}
+
+.star-sign {
+    width: 180px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.star-sign:hover {
+    transform: scale(1.1);
+}
+
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+#email,
+#dob,
+#birthMonth,
+#birthDate {
+    padding: 3px;
+    margin-top: 5px;
+    border: 2px solid #9b6aa8f3;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #9a9a9a;
+}
+
+#submitButton,
+#horoscopeButton {
+    background-color: #9b6aa8f3;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Garamond, serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submitButton:hover,
+#horoscopeButton:hover {
+    background-color: rgba(175, 137, 186, 0.929);
+}
+
+#birthMonth,
+#birthDate {
+    width: 150px;
+
+}
+
+.star-sign2 {
+    width: 260px;
+    height: 300px;
+}
+
+#errorText {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-horoscope {
+    margin-top: 20px;
+    /*padding: 20px;*/
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #DABFE0;
+}
+
+.green-text {
+    color: green;
+}
+
+.indigo-text {
+    color: indigo;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.pink-text {
+    color: rgb(214, 12, 157)
+}
+
+.resized-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #9b6aa8f3;
+}
+
+.image-container {
+    margin-right: 30px;
+    flex-shrink: 0;
+    /* Prevents the image container from shrinking */
+}
+
+.text-contentcap {
+    flex: 1;
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 20px 80px 0px 0px;
+    /* Added padding so the text didn't go right to the edge */
+    vertical-align: middle;
+}
+
+.text-contentaq,
+.text-contentge {
+    flex: 1;
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 40px 80px 0px 0px;
+    /* Added padding so the text didn't go right to the edge */
+    vertical-align: middle;
+}
+
+.text-contentar,
+.text-contentle,
+.text-contentli {
+    flex: 1;
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 50px 80px 0px 0px;
+    /* Added padding so the text didn't go right to the edge */
+    vertical-align: middle;
+}
+
+.text-contentsa {
+    flex: 1;
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 60px 80px 0px 0px;
+    /* Added padding so the text didn't go right to the edge */
+    vertical-align: middle;
+}
+
+.text-contentpi,
+.text-contentta,
+.text-contentca,
+.text-contentsc {
+    flex: 1;
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 70px 80px 0px 0px;
+    /* Added padding so the text didn't go right to the edge */
+    vertical-align: middle;
+}
+
+.additional-text {
+    text-align: center;
+    /* Ensures text is left-aligned */
+    margin-right: 100px;
+    margin-left: 100px;
+    /* Added margins so the text didn't go right to the edge */
+}
+
+.text-content h2,
+.text-content h3 {
+    text-align: center;
+    /* Centers the headings */
+    color: black;
+}
+
+.group-member-card {
+    margin-bottom: 100px;
+}
+
+.group-member-img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: -75px;
+    margin-bottom: 15px;
+    border: 2px solid #9b6aa8f3;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #f4e3f8;
+    border-radius: 5px;
+    border: 2px solid #9b6aa8f3;
+}
